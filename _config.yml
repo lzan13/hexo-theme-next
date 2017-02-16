@@ -2,11 +2,11 @@
 # Site Information Settings
 # ---------------------------------------------------------------
 
-# Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+# 启用网站图标
+favicon: /images/favicon.ico
 
-# Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+# 设置 SEO 关键字，使用都好分割
+keywords: "lzan13, Android, Android开发, AndroidStudio, Developer, Java, Easemob, hyphenate, 环信, Chat, 聊天"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2013
 
 # icon between year and author @Footer
 authoricon: heart
@@ -31,18 +31,18 @@ canonical: true
 seo: false
 
 # ---------------------------------------------------------------
-# Menu Settings
+# 菜单设置
 # ---------------------------------------------------------------
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -70,9 +70,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -132,8 +132,12 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  # LinkLabel: Link
+  Github: https://github.com/lzan13
+  Twitter: https://twitter.com/lzan13
+  Weibo: https://weibo.com/lzan13
+  Zhihu: https://www.zhihu.com/people/lzan13
 
 
 # Social Links Icons
@@ -148,12 +152,13 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+  ZhiHu: zhihu
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/avatar.png
 
 
 # Table Of Contents in the Sidebar
@@ -208,8 +213,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 320
 
 # Post meta display settings
 post_meta:
@@ -252,7 +257,6 @@ custom_logo:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: normal
-
 
 # ---------------------------------------------------------------
 # Third Party Services Settings
@@ -501,3 +505,14 @@ images: images
 
 # Theme version
 version: 5.1.0
+
+
+# duoshuo
+duoshuo_shortname: lzan13
+# duoshuo share
+# duoshuo_share: false
+
+# 打赏功能
+reward_comment: 觉得不错，来杯咖啡鼓励一下 ~
+wechatpay: http://lzan13.qiniudn.com/blog/upload/images/qr-wechat-2.jpg
+alipay: http://lzan13.qiniudn.com/blog/upload/images/qr-alipay-2.jpg

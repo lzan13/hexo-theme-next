@@ -305,13 +305,6 @@
       {% endif %}
     </div>
 
-    <div>
-      {% if not is_index %}
-        {% include 'reward.swig' %}
-      {% endif %}
-    </div>
-
-
     <footer class="post-footer">
       {% if post.tags and post.tags.length and not is_index %}
         <div class="post-tags">
@@ -366,6 +359,12 @@
         <div class="post-eof"></div>
       {% endif %}
     </footer>
+
+    <div>
+      {% if not is_index %}
+        {% include 'reward.swig' %}
+      {% endif %}
+    </div>
   </article>
 
 {% endmacro %}
