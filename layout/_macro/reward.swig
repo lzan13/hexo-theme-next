@@ -4,7 +4,7 @@
       <p>{{ theme.reward_comment }}</p>
     </div>
     <button id="reward_button" disable="enable" onclick="var qr = document.getElementById('reward_qr'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-      <span>我很欣赏你</span>
+      <span>~ 阿弥陀佛 ~</span>
     </button>
     <div id="reward_qr" style="display: none;">
       {% if theme.wechatpay %}

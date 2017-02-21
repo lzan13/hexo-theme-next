@@ -508,11 +508,11 @@ version: 5.1.0
 
 
 # duoshuo
-duoshuo_shortname: lzan13
+# duoshuo_shortname: lzan13
 # duoshuo share
 # duoshuo_share: false
 
 # 打赏功能
-reward_comment: 觉得不错，来杯咖啡鼓励一下 ~
+reward_comment: 阿弥陀佛，施主，你如此器宇轩昂，不来二两 ~
 wechatpay: http://lzan13.qiniudn.com/blog/upload/images/qr-wechat-2.jpg
 alipay: http://lzan13.qiniudn.com/blog/upload/images/qr-alipay-2.jpg
