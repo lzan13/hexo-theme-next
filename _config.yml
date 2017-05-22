@@ -28,7 +28,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # ---------------------------------------------------------------
 # 菜单设置
@@ -273,13 +273,13 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: d3596a23cae06acd72c15fd1fe2f6afd√
 
 # Duoshuo ShortName
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+# disqus_shortname: disqus_lzan13
 
 # Hypercomments
 #hypercomments_id:
@@ -303,7 +303,7 @@ mathjax:
 ##  type: button
 
 # Share
-#jiathis:
+jiathis: true
 # Warning: JiaThis does not support https.
 #add_this_id:
 
@@ -312,10 +312,10 @@ mathjax:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: qFs2bsqSZ8LeOYp-DHo4__pZKFNgy_CWPBy8GYQ_gXY
 
 # Google Analytics
-#google_analytics:
+#google_analytics: 
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -506,13 +506,7 @@ images: images
 # Theme version
 version: 5.1.0
 
-
-# duoshuo
-duoshuo_shortname: lzan13
-# duoshuo share
-# duoshuo_share: false
-
 # 打赏功能
-reward_comment: 阿弥陀佛，施主，你如此器宇轩昂，不来二两 ~
+reward_comment: 阿弥陀佛，施主，来个馒头吧 😋 ~
 wechatpay: http://lzan13.qiniudn.com/blog/upload/images/qr-wechat-2.jpg
 alipay: http://lzan13.qiniudn.com/blog/upload/images/qr-alipay-2.jpg

@@ -6,6 +6,7 @@
     <i class="fa fa-{{ theme.authoricon }}"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
+  <span class="beian">{{config.beian}}</span> 
 </div>
 
 {% if theme.copyright %}
@@ -15,8 +16,6 @@
 
 <div class="theme-info">
   {{ __('footer.theme') }} -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.{{ theme.scheme }}
-  </a>
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">iissnan.Next</a>
 </div>
 {% endif %}
